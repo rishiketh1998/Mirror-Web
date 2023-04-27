@@ -26,10 +26,6 @@ global.todos = [
 
 // Create some routes here...
 
-server.get('/todos', (req, res) => {
-  res.json(global.todos)
-})
-
 server.listen(8080, () => {
   console.log('Server listening at http://localhost:8080')
 })
