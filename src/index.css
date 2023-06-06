@@ -20,3 +20,23 @@
     background-color: #ffffff;
   }
 }
+
+.todolist {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.todolist td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.todolist th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd;
+  color: white;
+}
